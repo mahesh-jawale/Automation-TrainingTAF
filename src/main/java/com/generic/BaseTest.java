@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
 	
 	private WebDriver driver=null;
-	private String strURL="https://www.facebook.com/reg/";
+	private String strURL="https://the-internet.herokuapp.com/";
 	private Properties objConfig;
 
 	private SeleniumWrapperFunctions objseleniumWrapperFunctions;
@@ -23,7 +23,6 @@ public class BaseTest {
 		//strURL=objConfig.getProperty("AUT_URL");
 		System.out.println("Opening URL : "+strURL);
 		driver.get(strURL);
-		
 		driver.manage().window().maximize();
 		
 	}

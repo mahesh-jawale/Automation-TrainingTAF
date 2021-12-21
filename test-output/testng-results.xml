@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10199" started-at="2021-12-20T15:46:28Z" finished-at="2021-12-20T15:46:38Z">
+  <suite name="Default suite" duration-ms="21750" started-at="2021-12-21T14:15:22Z" finished-at="2021-12-21T14:15:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10199" started-at="2021-12-20T15:46:28Z" finished-at="2021-12-20T15:46:38Z">
-      <class name="com.scripts.SignUpTest">
-        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.SignUpTest@6d00a15d]" name="beforeMainMethod" is-config="true" duration-ms="8906" started-at="2021-12-20T21:16:28Z" finished-at="2021-12-20T21:16:37Z">
+    <test name="Default test" duration-ms="21750" started-at="2021-12-21T14:15:22Z" finished-at="2021-12-21T14:15:44Z">
+      <class name="com.scripts.HerokuAppTest">
+        <test-method status="PASS" signature="beforeMainMethod()[pri:0, instance:com.scripts.HerokuAppTest@6d00a15d]" name="beforeMainMethod" is-config="true" duration-ms="7029" started-at="2021-12-21T19:45:22Z" finished-at="2021-12-21T19:45:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMainMethod -->
-        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.scripts.SignUpTest@6d00a15d]" name="signUpTest" duration-ms="1275" started-at="2021-12-20T21:16:37Z" finished-at="2021-12-20T21:16:38Z">
+        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.scripts.HerokuAppTest@6d00a15d]" name="signUpTest" duration-ms="14700" started-at="2021-12-21T19:45:29Z" finished-at="2021-12-21T19:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signUpTest -->
-        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.SignUpTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="1" started-at="2021-12-20T21:16:38Z" finished-at="2021-12-20T21:16:38Z">
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.scripts.HerokuAppTest@6d00a15d]" name="afterMainMethod" is-config="true" duration-ms="0" started-at="2021-12-21T19:45:44Z" finished-at="2021-12-21T19:45:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMainMethod -->
-      </class> <!-- com.scripts.SignUpTest -->
+      </class> <!-- com.scripts.HerokuAppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
