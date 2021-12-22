@@ -123,4 +123,16 @@ public class Utilities {
 		return strGender;
 	}
 	
+	public String generate_OrangeHRM_UserName()
+	{
+		String strUserName="Admin";
+		return strUserName;
+	}
+	
+	public String generate_OrangeHRM_Password()
+	{
+		String strPassword="admin123";
+		return strPassword;
+	}
+	
 }

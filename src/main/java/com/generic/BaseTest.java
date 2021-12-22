@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class BaseTest {
 	
 	private WebDriver driver=null;
-	private String strURL="https://the-internet.herokuapp.com/";
+	private String strURL="https://opensource-demo.orangehrmlive.com/";
 	private Properties objConfig;
 
 	private SeleniumWrapperFunctions objseleniumWrapperFunctions;
